@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="title" content="El agua en la ciudad de México">
+  <meta name="subject" content="Divulgación de información acerca de la escasez de agua en la ciudad de México.">
+  <meta name="copyright" content="VitaOmnino">
+  <meta name="keywords" content="Ciudad de México, Agua, Escasez de agua, Sequía">
+  <meta name="author" content="Gabriel García Pérez">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="La ciudad de México ha enfrentado diversos casos de esasez de agua durante los últimos años, aquí te explico un poco de la problemática y te doy datos oficiales.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="titulo">VitaOmnino-El agua en la ciudad de México</title>
+  <link rel="icon" href="img/VitaOmnino-logo-vector.png">
+  <style>
+    header {
+        display: flex;
+        align-items: center;
+        padding: 10px 50px;
+        color: rgb(0, 0, 0);
+    }
+    header h1 {
+      text-align: left;
+      margin: 0px 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header img {
+        height: 50px;
+    }
+    header nav {
+        display: flex;
+        gap: 60px;
+        margin-left: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header nav a {
+        color: rgb(0, 0, 0);
+        text-decoration: dashed;
+        padding: 5px 10px;
+    }
+    main {
+        padding: 20px;
+      font-family: sans-serif;
+      padding: 1px 50px;
+    }
+    main h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      padding-right: 300px;
+    }
+    section {
+      padding-right: 300px;
+    }
+    section img {
+      display: block;
+      margin: 6px 15px;
+      width: 400px;
+      max-width: 100%;
+      height: auto;
+    }
+    ul {
+      list-style: none;
+    }
+    li::before{
+      content: "▬";
+      margin-right: 8px;
+    }
+    .color-diferente {
+      color: rgb(23, 86, 117);
+    }
+    .informacion-agua {
+      font-size: large;
+    }
+    .lista-informativa {
+      margin: 15px 15px;
+      font-size: large;
+      padding-right: 50px;
+      font-weight: bolder;
+    }
+    footer {
+      background-color: rgb(23, 86, 117);
+      color: white;
+      text-align: center;
+      padding: 20px 60px;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      display: flex;
+      padding: 10px 50px;
+    }
+    footer img {
+      height: 60px;
+      margin: 30px;
+    }
+    footer nav{
+      margin-left: auto;
+    }
+    footer nav a {
+      color: white;
+      text-decoration: dashed;
+      text-align: right;
+      margin: 30px;
+    }
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Despliega hacia abajo */
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilos para el menú desplegable en el footer */
+.footer-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.footer-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  bottom: 100%; /* Despliega hacia arriba */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.footer-dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.footer-dropdown:hover .footer-dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <img src="img/VitaOmnino-logo-vector.png" alt="Logo de la organización">
+    <h1><span class="color-diferente">V</span>ita<span class="color-diferente">O</span>mnino</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <div class="dropdown">
+        <a href="#nosotros" class="dropbtn">Nosotros</a>
+        <div class="dropdown-content">
+          <a href="mi-cuenta.html">Mi Cuenta</a>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+
+  <h1>La escasez de agua en la ciudad de México</h1>
+  <h6><time datetime="2024-07-05">Julio 05, 2024 por Gabriel</time></h6>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p class="informacion-agua">Durante 2024, México ha experimentado efectos negativos de una reciente escasez de agua. Durante los años recientes, las regiones del centro y norte del país padecieron de muchas sequías debido a diversos factores. Con datos del <strong>banco mundial</strong>, la disponibilidad de agua era de <strong>10,000 metros cúbicos</strong> (m³) en el año <strong>1960</strong> a <strong>4,000 m³ en el 2012</strong>. 
+  De igual manera, <strong>para 2030</strong> se cree que la disponibilidad podría llegar a los <strong>3,000 m³ por persona anual</strong>. (IMCO Staff, 2023)
+    </p>
+    <img src="img/Escasez-de-agua.jpg" class="imagen-ilustrativa" alt="Una imagen ilustrativa de un escenario extremo pero posible de la escasez de agua." title="Sequia">
+  </section>
+
+  <section>
+    <h2>¿Cuáles son las causas y posibles soluciones de la escasez de agua en la ciudad de México en 2024?</h2>
+    <p class="informacion-agua">Primero, analizando los <strong>factores</strong> que intervinieron como causas de la <strong>escasez de agua</strong>, podemos encontrar que, debido a la <strong>falta de precipitaciones</strong> en la ciudad de México y los estados del centro, el <strong>Sistema Cutzamala</strong> (la fuente de agua potable que abastece a la zona del valle de México) se encuentra en un <strong>punto incluso por debajo del 40%</strong> de su capacidad para almacenar agua potable. (EL Financiero, 2024)</p>
+    <img src="img/sistema-cutzamala.jpg" class="imagen-ilustrativa" alt="Una ilustración del sistema cutzamala"style="float: right;">
+    <p class="informacion-agua">Algunos otros factores que sustentan la problemática tienen que ver también con la <strong>sobreexplotación del acuífero subterráneo</strong>, las recurrentes <strong>fugas</strong> que hay en el sistema y una <strong>infraestructura obsoleta</strong> que necesita una renovación para evitar otros obstáculos. (Barragán, 2024) </p>
+  </section>
+
+  <section>
+    <p class="informacion-agua">De enero a mayo, mientras transcurre la temporada de estiaje de 2024, las alcaldías más afectadas de la ciudad de México serán principalmente: </p>
+    <ul class="lista-informativa">
+      <li>Iztacalco</li>
+      <li>Iztapalapa</li>
+      <li>Tlalpan</li>
+      <li>Venustiano Carranza</li>
+    </ul>
+    <p class="informacion-agua">Como resultado y para intentar mantener informadas a las personas, el <strong>Sacmex</strong> ha puesto a disposición de los habitantes de la ciudad de México, un <strong>sitio web llamado “agua en tu colonia”</strong> en el que puedes acceder a las <strong>fechas y horarios</strong> en los que está programado el suministro para tu dirección. (EL Financiero, 2024) <br> Actualmente se prevé que para el <strong>2030</strong>, únicamente el <strong>8% de la capital</strong> mantenga un buen servicio de <strong>distribución de agua</strong>. (EL Financiero, 2024)</p>
+    <img src="img/conagua.png" class="imagen-ilustrativa" style="float: left;" alt="Imagen de conagua">
+    <p class="informacion-agua">Por otro lado, el preludio más <strong>sonado en las redes</strong> fue que el <strong>día 0</strong> estaría cercano a llegar a escasos días, ya que se divulgó que podría aparecer el mismo 26 de junio de 2024. Sin embargo, <strong>Conagua</strong>, en el área de comunicación, declararon que ésta fue <strong>“una mala interpretación”</strong>, ya que se sugirieron distintos escenarios durante una <strong>conferencia de prensa</strong> el pasado noviembre acerca del estado del Cutzamala. (Díaz, 2024)</p>
+    <p class="informacion-agua">Como primeros pasos para comenzar a <strong>preservar el agua</strong>, según información del jefe de gobierno <strong>Martí Batres Guadarrama</strong>, podrían ser tales como:</p>
+    <ul class="lista-informativa">
+      <li>Cerrar las llaves de agua mientras no se usa.</li>
+      <li>Detectar y atender inmediatamente fugas en los domicilios y en las áreas públicas.</li>
+      <li>Reutilizar el agua para tareas que no precisen de agua potable.</li>
+      <li>Ahorrar toda el agua posible en las áreas de baño. <br>(SACMEX, 2024)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <img src="img/VitaOmnino-logo-vector.png" alt="Logo de la organización">
+    <p>&copy; 2024 VitaOmnino. Todos los derechos reservados.</p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <div class="footer-dropdown">
+        <a href="#nosotros" class="dropbtn">Nosotros</a>
+        <div class="footer-dropdown-content">
+          <a href="mi-cuenta.html">Mi Cuenta</a>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+</main>
+
+</body>
+
+</html>
